@@ -16,5 +16,5 @@ class Sub extends Sue {
 }
 
 main(List<String> args) {
-  Sub sub = new Sub();
+ // Sub sub = new Sub();
 }
