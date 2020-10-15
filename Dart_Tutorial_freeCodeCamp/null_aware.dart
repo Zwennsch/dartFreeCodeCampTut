@@ -12,6 +12,17 @@ main(List<String> args) {
   }
  */
   number = n?.num;
+  var num2 = number ?? true;
+
+  var num3 = 5;
+  num3 ??= 4;
 
   print(number);
+  print(num2);
+  print(num3);
+  if (num2 is bool) {
+    print("is an integer");
+  } else {
+    print("no, it's no integer");
+  }
 }
