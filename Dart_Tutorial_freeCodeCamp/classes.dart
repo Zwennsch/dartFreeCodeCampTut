@@ -37,4 +37,17 @@ main(List<String> args) {
   var x = X("Jimmy");
   print(x.name);
   //x.name = "Tim";
+
+// you can do this with final, but you cannot with const!
+  final list = [1, 4.5, 3];
+
+  list[2] = 6;
+  print(list);
+
+  const list2 = [3, 6, 9];
+/*
+  list2[1] = 7;
+  this gives an error at runtime
+*/
+  print(list2);
 }
